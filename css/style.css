@@ -1,0 +1,56 @@
+.cor-texto {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+
+
+.cor-texto-icone {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.cor-link {
+    color: #fff;
+}
+
+.cor-link:hover {
+    background-color: rgb(57, 57, 245);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.circulo {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 90px;
+    align-items: center;
+    border:5px solid #4e4ed1;
+    box-shadow: 0 0 20px  #4e4ed1 ;
+}
+
+.texto {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: hwb(240 31% 18%);
+}
+
+.texto-info {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+}
