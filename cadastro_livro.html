@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Cadastro de Livro</title>
+    
+</head>
+<body>
+    <form class="form-horizontal">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Cadastro de Livro</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="nome_livro">Nome:</label>  
+          <div class="col-md-4">
+          <input id="nome_livro" name="nome_livro" type="text" placeholder="Digite o nome do livro" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="editora">Editora:</label>  
+          <div class="col-md-4">
+          <input id="editora" name="editora" type="text" placeholder="Digite a editora do livro" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="numero_paginas">N° Páginas:</label>  
+          <div class="col-md-4">
+          <input id="numero_paginas" name="numero_paginas" type="text" placeholder="Digite o número de páginas do livro" class="form-control input-md">
+            
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="genero">Gênero Textual:</label>  
+            <div class="col-md-4">
+            <input id="genero" name="genero" type="text" placeholder="Ex: Fantasia, romance, ação..." class="form-control input-md">    
+            </div>
+        </div>
+        
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="isbn">ISBN:</label>  
+          <div class="col-md-4">
+          <input id="isbn" name="isbn" type="text" placeholder="" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="enviar"></label>
+            <div class="col-md-4 botao">
+              <button id="enviar" name="enviar" class="btn">Cadastrar</button>
+            </div>
+          </div>
+        
+        </fieldset>
+        </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</html>      
